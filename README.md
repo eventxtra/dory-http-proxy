@@ -1,2 +1,3 @@
-# dinghy-http-proxy
-the http proxy container that dinghy uses
+# dory-http-proxy
+
+forked from dinghy-http-proxy for SSL support.  Not pushed upstream since the solution here is temporary.
