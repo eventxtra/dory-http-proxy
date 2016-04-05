@@ -1,4 +1,4 @@
-FROM codekitchen/dinghy-http-proxy:2.0.4
+FROM codekitchen/dinghy-http-proxy:2.2.0
 MAINTAINER Benjamin Porter <BenjaminPorter86@gmail.com>
 
 # Copy our new template
