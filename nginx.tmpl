@@ -50,7 +50,7 @@ upstream {{ .Host }} {
 }
 
 server {
-	server_name {{ .Host }};
+	server_name {{ .Host }} ~^{{ .Host }}\.\d+\.\d+\.\d+\.\d+\.xip\.io$;
 	listen 80;
 	access_log /var/log/nginx/access.log vhost;
 
