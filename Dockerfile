@@ -1,5 +1,4 @@
-FROM codekitchen/dinghy-http-proxy:2.5
-MAINTAINER Benjamin Porter <BenjaminPorter86@gmail.com>
+FROM eventxtra/dinghy-http-proxy:latest
 
 # Copy our new template
 COPY nginx.tmpl /app/
